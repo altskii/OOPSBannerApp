@@ -1,21 +1,54 @@
-/**
- * OOPSBannerApp
- * UC2 - Displays OOPS in 7-line banner format.
- *
- * @author Anushk
- * @version 2.0
- */
-
 public class OOPSBannerApp {
 
     public static void main(String[] args) {
 
-        System.out.println(" *******  " + " *******  " + " *******  " + " *******  ");
-        System.out.println("*       * " + "*       * " + "*       * " + "*       * ");
-        System.out.println("*       * " + "*       * " + "*       * " + "*         ");
-        System.out.println("*       * " + "*       * " + " *******  " + " *******  ");
-        System.out.println("*       * " + "*       * " + "*         " + "        * ");
-        System.out.println("*       * " + "*       * " + "*         " + "*       * ");
-        System.out.println(" *******  " + " *******  " + "*         " + " *******  ");
+        System.out.println(String.join(" ",
+                " ***** ",
+                " ***** ",
+                " ***** ",
+                " ***** "
+        ));
+
+        System.out.println(String.join(" ",
+                " *   * ",
+                " *   * ",
+                " *   * ",
+                " *     "
+        ));
+
+        System.out.println(String.join(" ",
+                " *   * ",
+                " *   * ",
+                " ***** ",
+                " ***** "
+        ));
+
+        System.out.println(String.join(" ",
+                " *   * ",
+                " *   * ",
+                " *     ",
+                "     * "
+        ));
+
+        System.out.println(String.join(" ",
+                " *   * ",
+                " *   * ",
+                " *     ",
+                "     * "
+        ));
+
+        System.out.println(String.join(" ",
+                " *   * ",
+                " *   * ",
+                " *     ",
+                " *   * "
+        ));
+
+        System.out.println(String.join(" ",
+                " ***** ",
+                " ***** ",
+                " *     ",
+                " ***** "
+        ));
     }
 }
